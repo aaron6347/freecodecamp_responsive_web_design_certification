@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - fcc_build a survey form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<head>
+  <title>FCC Survey Form</title>
+</head>
+<body>
+  <div id="back">
+    <h1 id="title"><span>Online Class Review Survey Form</span></h1>
+    <p id="description"><span>A survey that collect reviews to improve online education services. Thank you for your time!<span></p>
+    <div id="form-div">
+      <form id="survey-form">
+        <div id="row">
+          <label id="name-label">Name</label>
+          <input id="name" name="name" type="text" placeholder="Type your name" required>
+        </div>
+        <div id="row">
+          <label id="email-label">Email</label>
+          <input id="email" name="email" type="email" placeholder="Type your email" required>
+        </div>
+        <div id="row">
+          <label id="number-label">Age</label>
+          <input id="number" name="number" type="number" min="7" max="100" placeholder="Age">
+        </div>
+        <div id="row">
+          <label for="school">School Level</label>
+          <select id="dropdown">
+            <option value="elementary">Elementary School</option>
+            <option value="middle">Middle School</option>
+            <option value="high">High School</option>
+            <option value="college">College</option>
+            <option value="university">University</option>
+            <option value="Others">Others</option>
+          </select>
+        </div>
+        <div id="row">
+          <label for="medium">Medium</label>
+        </div>
+        <div id="row" class="checkbox-row">
+          <input type="radio" id="ciscowebex" name="medium" value="ciscowebex">
+          <label for="ciscowebex" id="radiolabel">CISCO Webex</label><br>
+          <input type="radio" id="skype" name="medium" value="skype">
+          <label for="skype" id="radiolabel">Skype</label><br>
+          <input type="radio" id="zoom" name="medium" value="zoom">
+          <label for="zoom" id="radiolabel">Zoom</label><br>
+          <input type="radio" id="otherradio" name="medium" value="otherradio">
+          <label for="otherradio" id="radiolabel">Other</label><br>
+        </div>
+        <div id="row">
+          <label for="improvement">Improvement</label>
+        </div>
+        <div id="row" class="checkbox-row">
+          <input type="checkbox" id="connectivity" name="connectivity" value="connectivity">
+          <label for="connectivity" id="radiolabel">Connectivity</label><br>
+          <input type="checkbox" id="admin" name="admin" value="admin">
+          <label for="admin" id="radiolabel">Admin Control</label><br>
+          <input type="checkbox" id="chat" name="chat" value="chat">
+          <label for="chat" id="radiolabel">Chat</label><br>
+          <input type="checkbox" id="resolution" name="resolution" value="resolution">
+          <label for="resolution" id="radiolabel">Video Resolution</label><br>
+          <input type="checkbox" id="other" name="other" value="other">
+          <label for="other" id="radiolabel">Other</label>
+        </div>
+        <div id="row">
+          <label for="any">Any comment or suggestion?</label>
+        </div>
+        <div id="row" class="anyrow">
+          <textarea id="any" name="any" type="text" placeholder="Type your comment at here"></textarea>
+        </div>
+        <div id="row">
+          <button id="submit" type="submit" value="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+<!-- partial -->
+  
+</body>
+</html>
