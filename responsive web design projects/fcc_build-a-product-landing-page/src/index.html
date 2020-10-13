@@ -1,0 +1,39 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<head>
+  <title>Product Landing Page</title>
+</head>
+<body>
+  <div id="back">
+    <header id="header">
+      <div id="header-img-div">
+        <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png" alt="flutter png">
+      </div>
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#video-div">Video</a></li> 
+          <li><a class="nav-link" href="#sample-div">Samples</a></li>
+          <li><a class="nav-link" href="#social-div">Social</a></li>
+        </ul>
+      </nav>  
+    </header>
+    <section id="info">
+      <h1>Enter your email below for more follow-up!</h1>
+      <form id="form" action="submit" post="https://www.freecodecamp.org/email-submit">
+        <input type="email" required name="email" id="email" placeholder="Type your email"><br>
+        <input type="submit" id="submit">
+      </form>
+      <div id="video-div">
+        <div>
+          <iframe id="video" src="https://www.youtube.com/embed/fq4N0hgOWzU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div id="sample-div">
+        <p id="sample"><a href="https://flutter.github.io/samples/#" target="_blank">Click <b>here</b> for samples of flutter</a></p>
+      </div>
+      <div id="social-div">
+        <a href="https://www.youtube.com/flutterdev" target="_blank"><img src="https://img.icons8.com/clouds/100/000000/youtube-squared.png"/></a>
+        <a href="https://github.com/flutter" target="_blank"><img src="https://img.icons8.com/clouds/100/000000/github.png"/></a>
+      </div>
+    </section>
+  </div>
+</body>
